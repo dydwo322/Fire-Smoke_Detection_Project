@@ -88,6 +88,16 @@
 <br>
 
 ## 6.결과
+<table width="600" style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203844470-a8028424-4aea-4693-aeeb-ef77c857f087.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203844480-3712ffbd-7c75-4826-8afc-405d49986589.jpg" ></td>
+  </tr>
+  <tr align=center>
+    <td><a>데이터의 mAP, avg loss, precision, recall, F1-score</a></td>
+    <td><a>각 클래스별 Average Precision 값</a></td>
+  </tr>
+</table>
 
 ## 7.자체 평가 의견
 
