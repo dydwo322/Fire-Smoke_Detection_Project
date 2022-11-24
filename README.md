@@ -1,1 +1,1 @@
-# Fire-Smoke_Detection_Project(Object Detection)
+# Fire & Smoke_Detection_Project(Object Detection)
