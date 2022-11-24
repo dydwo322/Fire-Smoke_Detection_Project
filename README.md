@@ -1,5 +1,6 @@
 # Fire & Smoke Detection Project(Object Detection)
-
+<br>
+     
 ## 0. 목차
 <table>
     <thead>
@@ -48,10 +49,9 @@
      </tbody>
 </table>
 <br>
-<br>
        
 
-## 1.주제 선정
+## 1.<a name="1">주제 선정</a>
 ### ○ 프로젝트 주제 
 - 연기감지를 통한 화재 예측 AI 경보시스템 구축<br> 
 
@@ -76,7 +76,7 @@
 - 화재사고 사전 예방을 통한 인명피해 및 재산피해 경감에 기여
 <br>
 
-## 2.데이터 수집
+## 2.<a name="2">데이터 수집</a>
 ### ○ 데이터셋
 - AI Hub 화재발생 예측 영상 데이터셋 (이미지 173만장, Bbox 199만개, Polygon 26만개) 中 Vaildation의 data를 Train의 data로 사용하여 학습시킴 (약 56,000여장)<br>
 <div align=center>
@@ -96,7 +96,7 @@
 </table>
 <br>
 
-## 3.데이터 전처리
+## 3.<a name="3">데이터 전처리</a>
 ### ○ 리사이즈(224X224,416X416,608X608)후 패딩 처리
 <table style="text-align: center;">
   <tr align=center>
@@ -112,11 +112,11 @@
 </table>
 <br>
 
-## 4.모델 선정
+## 4.<a name="4">모델 선정</a>
 ### ○ YOLO v4 - CSPDarknet53을 Backbone으로 사용하여 실시간 객체인식 성능이 우수함
 <img width="800"  src="https://user-images.githubusercontent.com/79880476/203839698-9d1cce01-933a-48db-b405-0518cb55cb93.jpg"><br>
 
-## 5.모델 성능 평가
+## 5.<a name="5">모델 성능 평가</a>
 ### ○ 이미지 리사이즈별 성능 확인 (224X224, 416X416, 608X608)
 <table style="text-align: center;">
   <tr align=center>
@@ -139,7 +139,7 @@
 </table>
 <br>
 
-## 6.결과
+## 6.<a name="6">결과</a>
 
 ### ○ 미세조정 
 <table width="600" style="text-align: center;">
@@ -166,7 +166,7 @@
 </table>
 <br>
 
-## 7.자체 평가 의견
+## 7.<a name="7">자체 평가 의견</a>
 ### ○ 성능의 한계점 - 80% 이상의 mAP 정확도 확보에도 불구하고 실제 검출 정확도는 높지 않다.
 <br>
 <img width="700"  src="https://user-images.githubusercontent.com/79880476/203847522-b63ec643-f8bc-4674-95f8-6da9c6a18f0c.jpg">
@@ -184,9 +184,9 @@
 - 데이터 불균형 해소 - 비교적 적은 양의 데이터를 추가로 수집하여 라벨간의 데이터 양을 동일하게 만듬
 <br>
 
-## 8.사용 코드
+## 8.<a name="8">사용 코드</a>
 
-## 9.팀원 & 역할
+## 9.<a name="9">멤버 & 역할</a>
 <img width="350" src="https://user-images.githubusercontent.com/79880476/203848921-7f0ae9ff-d96b-4e91-960c-42d074747260.jpg">
 
 - 김용재 : 데이터 핸들링 (416x416), 모델 구축, 코드정리
