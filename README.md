@@ -28,6 +28,21 @@
 ## 2.데이터 수집
 ### ○ 데이터셋
 - AI Hub 화재발생 예측 영상 데이터셋 (이미지 173만장, Bbox 199만개, Polygon 26만개) 中 Vaildation의 data를 Train의 data로 사용하여 학습시킴 (약 56,000여장)<br>
+<div align=center>
+  <img width="1200"  src="https://user-images.githubusercontent.com/79880476/203839675-a9d5f380-ae54-49e9-af2e-729c58e2d0fd.jpg"><br>
+  <a>AI HUB 데이터 량</a>
+</div>
+<br>
+<table style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203839682-a429db74-7a74-422f-9a04-80ad35a0e2c8.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203839668-39833364-f878-434c-9e6f-ab7ba5c27fc5.jpg" ></td>
+  </tr>
+  <tr align=center>
+    <td><a>데이터 정보</a></td>
+    <td><a>데이터의 라벨</a></td>
+  </tr>
+</table>
 
 ## 3.데이터 전처리
 
