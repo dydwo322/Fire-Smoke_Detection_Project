@@ -45,7 +45,19 @@
 </table>
 
 ## 3.데이터 전처리
-
+### ○ 리사이즈(224X224,416X416,608X608)후 패딩 처리
+<table style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203839668-39833364-f878-434c-9e6f-ab7ba5c27fc5.jpg" ></td>
+  </tr>
+</table>
+### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
+<table style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203839668-39833364-f878-434c-9e6f-ab7ba5c27fc5.jpg" ></td>
+  </tr>
+</table>
+<br>
 ## 4.모델 성능 평가 및 개선
 
 ## 5.결과
