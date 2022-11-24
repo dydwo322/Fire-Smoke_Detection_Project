@@ -33,7 +33,7 @@
   <a>AI HUB 데이터 량</a>
 </div>
 <br>
-<table style="text-align: center;">
+<table width="600" style="text-align: center;">
   <tr align=center>
     <td><img src="https://user-images.githubusercontent.com/79880476/203839682-a429db74-7a74-422f-9a04-80ad35a0e2c8.jpg" ></td>
     <td><img src="https://user-images.githubusercontent.com/79880476/203839668-39833364-f878-434c-9e6f-ab7ba5c27fc5.jpg" ></td>
@@ -48,17 +48,38 @@
 ### ○ 리사이즈(224X224,416X416,608X608)후 패딩 처리
 <table style="text-align: center;">
   <tr align=center>
-    <td><img src="https://user-images.githubusercontent.com/79880476/203839668-39833364-f878-434c-9e6f-ab7ba5c27fc5.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203842479-95ca0266-442c-4d22-a345-a49ba34825cf.jpg" ></td>
+  </tr>
+</table>
+
+### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
+<table style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203842490-bde17b46-0a99-4eef-8d99-6a9411b0ce28.jpg" ></td>
+  </tr>
+</table>
+<br>
+
+## 4.모델 성능 평가 및 개선
+### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
+<table style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203842490-bde17b46-0a99-4eef-8d99-6a9411b0ce28.jpg" ></td>
   </tr>
 </table>
 ### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
 <table style="text-align: center;">
   <tr align=center>
-    <td><img src="https://user-images.githubusercontent.com/79880476/203839668-39833364-f878-434c-9e6f-ab7ba5c27fc5.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203842490-bde17b46-0a99-4eef-8d99-6a9411b0ce28.jpg" ></td>
+  </tr>
+</table>
+### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
+<table style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203842490-bde17b46-0a99-4eef-8d99-6a9411b0ce28.jpg" ></td>
   </tr>
 </table>
 <br>
-## 4.모델 성능 평가 및 개선
 
 ## 5.결과
 
