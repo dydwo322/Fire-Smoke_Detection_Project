@@ -1,5 +1,56 @@
 # Fire & Smoke Detection Project(Object Detection)
 
+## 0. 목차
+<table>
+    <thead>
+        <tr align=center>
+            <th>번호</th>
+            <th>목차</th>   
+        </tr>
+    </thead>
+    <tbody>
+        <tr align=center>
+            <td>1</td>
+            <td><a href="#1">주제 선정</a></td>
+        </tr>
+        <tr align=center>
+            <td>2</td>
+            <td><a href="#2">데이터 수집</a></td>
+        </tr>
+        <tr align=center>
+            <td>3</td>
+            <td><a href="#3">데이터 전처리</a></td>
+        </tr>
+        <tr align=center>
+            <td>4</td>
+            <td><a href="#4">모델 선정</a></td>
+        </tr>
+        <tr align=center>
+            <td>5</td>
+            <td><a href="#5">모델 성능 평가</a></td>
+        </tr>
+        <tr align=center>
+            <td>6</td>
+            <td><a href="#6">결과</a></td>
+        </tr>
+        <tr align=center>
+            <td>7</td>
+            <td><a href="#7">자체 평가 의견</a></td>
+        </tr>
+        <tr align=center>
+            <td>8</td>
+            <td><a href="#8">사용 코드</a></td>
+        </tr>
+        <tr align=center>
+            <td>9</td>
+            <td><a href="#9">멤버 & 역할</a></td>
+        </tr>  
+     </tbody>
+</table>
+<br>
+<br>
+       
+
 ## 1.주제 선정
 ### ○ 프로젝트 주제 
 - 연기감지를 통한 화재 예측 AI 경보시스템 구축<br> 
@@ -133,7 +184,9 @@
 - 데이터 불균형 해소 - 비교적 적은 양의 데이터를 추가로 수집하여 라벨간의 데이터 양을 동일하게 만듬
 <br>
 
-## 8.팀원 & 역할
+## 8.사용 코드
+
+## 9.팀원 & 역할
 <img width="350" src="https://user-images.githubusercontent.com/79880476/203848921-7f0ae9ff-d96b-4e91-960c-42d074747260.jpg">
 
 - 김용재 : 데이터 핸들링 (416x416), 모델 구축, 코드정리
