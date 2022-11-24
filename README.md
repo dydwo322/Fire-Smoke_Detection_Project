@@ -1,4 +1,4 @@
-# Fire & Smoke Detection Project(Object Detection)
+# 연기감지를 통한 화재 예측AI 경보시스템 구축 <br>(Fire & Smoke Detection Project(Object Detection))
 <br>
      
 ## 0. 목차
