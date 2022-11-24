@@ -88,6 +88,8 @@
 <br>
 
 ## 6.결과
+
+### ○ 미세조정 
 <table width="600" style="text-align: center;">
   <tr align=center>
     <td><img src="https://user-images.githubusercontent.com/79880476/203844470-a8028424-4aea-4693-aeeb-ef77c857f087.jpg" ></td>
@@ -96,6 +98,18 @@
   <tr align=center>
     <td><a>데이터의 mAP, avg loss, precision, recall, F1-score</a></td>
     <td><a>각 클래스별 Average Precision 값</a></td>
+  </tr>
+</table>
+
+### ○ 구동 예시
+<table width="600" style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203846874-718264d2-c73a-47fe-a5c0-c084cf5be1b8.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203846882-4be20492-a97a-4d12-aae4-4d2a46def792.jpg" ></td>
+  </tr>
+  <tr align=center>
+    <td><a>이미지로 구동한 실례</a></td>
+    <td><a>영상으로 구현한 실례</a></td>
   </tr>
 </table>
 
