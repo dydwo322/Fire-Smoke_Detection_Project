@@ -60,28 +60,34 @@
 </table>
 <br>
 
-## 4.모델 성능 평가 및 개선
-### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
+## 4.모델 선정
+### ○ YOLO v4 - CSPDarknet53을 Backbone으로 사용하여 실시간 객체인식 성능이 우수함
+<img width="800"  src="https://user-images.githubusercontent.com/79880476/203839698-9d1cce01-933a-48db-b405-0518cb55cb93.jpg"><br>
+
+## 5.모델 성능 평가
+### ○ 이미지 리사이즈별 성능 확인 (224X224, 416X416, 608X608)
 <table style="text-align: center;">
   <tr align=center>
-    <td><img src="https://user-images.githubusercontent.com/79880476/203842490-bde17b46-0a99-4eef-8d99-6a9411b0ce28.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203845376-89d96aa8-665b-4ec3-b77c-d643f0cb210e.jpg" ></td>
   </tr>
 </table>
-### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
+
+### ○ ignore_thresh 설정 (max_batches = 22000 → 5500변경)
 <table style="text-align: center;">
   <tr align=center>
-    <td><img src="https://user-images.githubusercontent.com/79880476/203842490-bde17b46-0a99-4eef-8d99-6a9411b0ce28.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203844482-7be7425c-29f9-4927-97fd-3984e22999ea.jpg" ></td>
   </tr>
 </table>
-### ○ 폴리곤 좌표 → Bbox 좌표로 변환 / 상대좌표 → 절대좌표 전환
+
+### ○ IoU_thresh 설정
 <table style="text-align: center;">
   <tr align=center>
-    <td><img src="https://user-images.githubusercontent.com/79880476/203842490-bde17b46-0a99-4eef-8d99-6a9411b0ce28.jpg" ></td>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203844474-c754ec1e-ecca-46f9-963e-a1cf966ac6c1.jpg" ></td>
   </tr>
 </table>
 <br>
 
-## 5.결과
+## 6.결과
 
-## 6.자체 평가 의견
+## 7.자체 평가 의견
 
