@@ -185,6 +185,33 @@
 <br>
 
 ## 8.<a name="8">사용 코드</a>
+<table>
+    <thead>
+        <tr>
+            <th>목록</th>
+            <th>파일명</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>화재 인식 이미지 전처리 코드</td>
+            <td><a href = "https://github.com/dydwo322/Fire-Smoke_Detection_Project/blob/main/OliveYoung_Crawling.ipynb">OliveYoung_Crawling.ipynb</a></td>
+            <td> 화재 인식 이미지 리사이즈 & 패딩 전처리 코드입니다.</td>
+        </tr>
+        <tr>
+            <td>화재 인식 모델 학습 코드</td>
+            <td><a href = "https://github.com/dydwo322/Fire-Smoke_Detection_Project/blob/main/OliveYoung_Data_Preprocessing.ipynb">OliveYoung_Data_Preprocessing.ipynb</a></td>
+            <td> 화재 인식에 쓰는 YOLO v4의 이미지 학습 코드입니다.</td>
+        </tr>
+        <tr>
+            <td>화재 인식 모델 시각화 코드</td>
+            <td><a href = "https://github.com/dydwo322/Fire-Smoke_Detection_Project/blob/main/OliveYoung_Data_Preprocessing.ipynb">OliveYoung_Data_Preprocessing.ipynb</a></td>
+            <td> 화재 인식에 쓰는 YOLO v4의 시각화를 해주는 코드입니다.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## 9.<a name="9">멤버 & 역할</a>
 <img width="350" src="https://user-images.githubusercontent.com/79880476/203848921-7f0ae9ff-d96b-4e91-960c-42d074747260.jpg">
